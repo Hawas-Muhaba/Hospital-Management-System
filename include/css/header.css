@@ -1,3 +1,8 @@
+body {
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
 .navbar {
   background-color: #aaedf7;
   padding: 1rem 2rem 0.2rem;
@@ -8,7 +13,6 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 4rem;
 }
 
 .navbar div {
@@ -17,17 +21,27 @@
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
+  height: 40px;
+  text-align: start;
 }
 
 .nav-logo {
   font-size: 1.2rem;
   color: rgb(41, 38, 38);
+  margin: 0;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
 }
 
 .nav-menu {
   display: flex;
   gap: 1rem;
   list-style: none;
+  margin: 0;
 }
 
 .nav-menu a {

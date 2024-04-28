@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=MedievalSharp&family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c1b65d9ebe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./include/css/style.css?v=<?php echo time(); ?>">
-    <title>HMS</title>
+    <title>Admin Login Page</title>
 </head>
 <body>
-    
     <?php
-        include('./include/index.php');
-    ?>
+		include('./include/header.php');
+	?>
     
+    <div></div>
 </body>
 </html>

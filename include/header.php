@@ -10,9 +10,9 @@
   <body>
     <nav class="navbar">
       <div>
-        <h5 class="nav-logo">Tena HMS</h5>
+        <h5 class="nav-logo"><a href="index.php">Tena HMS</a></h5>
         <ul class="nav-menu">
-          <li><a href="#">Admin</a></li>
+          <li><a href="adminLogin.php">Admin</a></li>
           <li><a href="#">Doctor</a></li>
           <li><a href="#">Patient</a></li>
         </ul>

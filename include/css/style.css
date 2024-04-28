@@ -5,3 +5,9 @@ body {
   font-family: poppins;
   background-color: #ffffff;
 }
+
+.navbar-container {
+  height: 64px;
+  background: red;
+  z-index: 1000;
+}
