@@ -1,0 +1,72 @@
+body {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 4rem);
+  background: url("../img/blurry-gradient-haikei.png") no-repeat center
+    center/cover;
+}
+
+.call-to-action-wrapper {
+  display: flex;
+  gap: 3rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.call-to-action-wrapper div {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+  border: 1px solid rgba(181, 180, 180, 0.297);
+  border-bottom: 1px solid rgba(167, 166, 166, 0.672);
+  border-radius: 0.5rem;
+}
+
+.call-to-action-wrapper img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.call-to-action-wrapper a {
+  /* background-color: #aaedf7; */
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  border: 1px solid gray;
+}
+
+.call-to-action-wrapper a:hover {
+  background-color: rgba(164, 164, 164, 0.447);
+  border-color: rgba(164, 164, 164, 0.447);
+}
+
+.call-to-action-wrapper h5 {
+  font-size: 1.2rem;
+  color: rgb(54, 54, 54);
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    height: auto;
+    padding: 5rem 0;
+  }
+
+  .call-to-action-wrapper {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .call-to-action-wrapper div {
+    width: 100%;
+  }
+}

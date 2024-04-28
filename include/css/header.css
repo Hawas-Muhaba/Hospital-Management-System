@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #aaedf7;
+  padding: 1rem 2rem 0.2rem;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+}
+
+.navbar div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.nav-logo {
+  font-size: 1.2rem;
+  color: rgb(41, 38, 38);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+}
+
+.nav-menu a:hover,
+.nav-menu a:active {
+  color: rgb(0, 0, 0);
+}
