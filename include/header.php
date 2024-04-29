@@ -12,9 +12,20 @@
       <div>
         <h5 class="nav-logo"><a href="index.php">Tena HMS</a></h5>
         <ul class="nav-menu">
-          <li><a href="adminLogin.php">Admin</a></li>
-          <li><a href="#">Doctor</a></li>
-          <li><a href="#">Patient</a></li>
+          <?php
+            if(isset($_SESSION["admin"])) {
+              $user = $_SESSION["admin"];
+
+              echo 
+              '<li><a href="#">'.$user.'</a></li>
+              <li><a href="#">Logout</a></li>';
+            } else {
+              echo 
+              '<li><a href="adminlogin.php">Admin</a></li>
+              <li><a href="logout">Doctor</a></li>
+              <li><a href="#">Patient</a></li>';
+            }
+          ?>
         </ul>
       </div>
     </nav>
