@@ -2,23 +2,36 @@
     session_start();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=MedievalSharp&family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c1b65d9ebe.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./include/css/style.css?v=<?php echo time(); ?>">
-    <title>HMS</title>
-</head>
-<body>
     
     <?php
-        include('./include/index.php');
+        include('./include/header.php');
     ?>
+
+    <div>
+		<div  class="call-to-action-wrapper">
+			<div>
+				<img src="./include/img/more-info.png">
+				<h5>Click here to get more information</h5>
+				<a>
+					More
+				</a>
+			</div>
+			<div>
+				<img src="./include/img/create-account.png">
+				<h5>Create Account so that we can take good care of you</h5>
+				<a>
+					Create Account!
+				</a>
+			</div>
+			<div>
+				<img src="./include/img/employee-doctors.png">
+				<h5>We are employing for doctors</h5>
+				<a>
+					Apply Now!
+				</a>
+			</div>
+		</div>
+	</div>
     
 </body>
 </html>
